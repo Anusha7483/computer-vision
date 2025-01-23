@@ -3,15 +3,16 @@
 
 # In[3]:
 
-
+#to seperate images into test and trainset 
+#to seperate annotations into test and train 
 import os
 import shutil
 import random
 
 # Paths
-images_folder =  r"C:\Users\anush\Downloads\archive (4)\samples_for_clients\samples_for_clients"
-annotations_folder = r"C:\Users\anush\Downloads\archive (4)\annotations\annotations"
-output_folder = r"C:\Users\anush\Downloads\archive (4)\output_folder"
+images_folder =  r"image path"
+annotations_folder = r"annotation path"
+output_folder = r"output folder path"
 
  #Output directories
 train_images_dir = os.path.join(output_folder, "train/images")
